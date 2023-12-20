@@ -1,0 +1,333 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.wrapper{
+    height: 123px;
+    border: 1px solid #334155;
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 4%;
+}
+.logo img{
+    width: 250px;
+    height: auto;
+}
+nav a{
+    color: #26A65B;
+    font: 16px;
+    padding: 0 16px;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-weight: 900;
+    
+}
+nav button{
+    background: #26A65B;
+    border: 0;
+    border-radius: 7px;
+    color: white;
+    padding: 12px 20px;
+    font-size: 16px;
+    margin-left: 10px;
+}
+.banner{
+    height: 700px;
+    padding-bottom: 100px;
+    background: url(images/11Honorable-Minister-Dr-Bosun-Tijani-2.jpg);
+    margin: 0 4%;
+    display: flex;
+    align-items: flex-end;
+    font-family: Roboto sans-serif;
+}
+.B-content{
+    max-width: 640px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 20px;
+}
+.B-content h1,p{
+    color: white;
+    line-height: 25px;
+}
+.B-content h1{
+    color: white;
+    line-height: 55px;
+    font-size: 48px;
+}
+.B-content h2{
+    width: max-content;
+    background: #F9DCAD;
+    color: black;
+    font-size: 16px;
+    padding: 11px 5px;
+    border-radius: 5px;
+}
+.B-content button{
+    color: white;
+    font-size: 16px;
+    background: #26A65B;
+    padding: 15px 30px;
+    border: 0px;
+    cursor: pointer;
+}
+.about{
+    display: flex;
+    padding: 60px 7%;  
+    color: #000;
+    gap: 30px;
+}
+.about-txt{
+    flex: 1;
+    padding-top: 80px;
+}
+.about-img{
+    flex: 1;
+}
+.about img{
+   width: 100%;
+}
+.title{
+    font-size: 48px;
+    color: #26A65B;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 30px;
+}
+.about-txt h4{
+    font-size: 16px;
+    padding: 10px 100px 0 0;
+    color: #334155;
+    line-height: 25px;
+    max-width: 500px;
+    font-weight: 600;
+}
+.container{
+    min-height: 800px;
+    background: #26A65B;
+    margin: 100px 6% 0;
+    padding: 50px 40px 40px 50px;
+}
+.container h2{
+    max-width: 600px;
+    font-size: 40px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    margin-bottom: 80px;
+}
+.programme{
+    display: flex; 
+    flex-wrap: wrap;
+    gap: 50px;
+    align-items: center;
+}
+.programme div{
+    flex: 1;
+}
+.programme img{
+    width: 475px;
+    height: auto;
+    border-radius: 25px;
+}
+.programme-txt1{
+    padding-right: 50px;
+    font-size: 19px;
+    color: white;
+    line-height: 30px;
+    font-weight: bold;
+}
+.programme-txt2{
+    padding: 50px;
+    font-size: 16px;
+    color: white;
+    line-height: 30px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+.color{
+    color: #F9DCAD;
+}
+.skill-container{
+    background: #F2FFF7;
+    padding: 100px 30px;
+    min-height: 280px;
+    margin: 0 6%;
+    color: #000;
+}
+.skill-container h2{
+    color: #26A65B;
+    font-size: 40px;
+    padding-bottom: 20px;
+}
+.skill-container small{
+    font-size: 18px;
+}
+.skills ul{
+    list-style: none;
+    flex: 1;
+    padding-left: 20px;
+}
+.circle{
+    background: #26A65B;
+    color: #FFFFFF;
+    height: 30px;
+    width: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+}
+.skills{
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    margin-top: 70px;
+}
+.skills ul li{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+    letter-spacing: normal;
+}
+.future{
+    padding: 80px 6%;
+}
+.future h1{
+    margin-bottom: 20px;
+    font-size: 40px;
+    color: #26A65B;
+}
+.future small{
+    font-size: 16px;
+    margin: 20px 0 28px;
+    line-height: 25px;
+}
+.catagory{
+    display: flex;
+    padding: 30px 5%;
+    gap: 30px;
+}
+.catagory div{
+    min-height: 450px;
+    flex: 1;
+    border-radius: 25px;
+    padding: 30px;
+}
+.catagory div img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+.cat-1{
+    background: #FFEAC7;
+}
+.cat-2{
+    background: #DEFFEB;
+}
+.catagory button{
+    background: #26A65B;
+    border: 0;
+    border-radius: 5px;
+    color: white;
+    font-size: 18px;
+    padding: 12px 40px;
+    margin-top: 35px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.catagory h1{
+    color: #26A65B;
+    font-size: 28px;
+    text-transform: capitalize;
+    margin: 20px 0 30px;
+    font-weight: bold;
+}
+.catagory small{
+    line-height: 25px;
+}
+.catagory button i{
+    margin-left: 12px;
+}
+.partner{
+    background: #29562A;
+    min-height: 320px;
+    margin: 80px 25px;
+    text-align: center;
+}
+.partner h1{
+    font-size: 40px;
+    color: white;
+    padding: 45px 0;
+}
+.partner small{
+    color: white;
+    font-size: 16px;
+}
+.partner button{
+    justify-items: center;
+    background: #26A65B;
+    border: 0;
+    padding: 10px 30px;
+    border-radius: 5px;
+    color: white;
+    font-size: 18px;
+    margin-top: 40px; 
+    font-weight: bold;
+}
+.fa1{
+    color: #26A65B;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+.fa2{
+    text-align: center;
+    background-color: #26A65B;
+    margin: 30px 50px;
+    color: white;
+    padding: 10px;
+    font-size: 30px;
+}
+.faqs{
+    display: flex;
+    padding: 30px 5%;
+    gap: 25px;
+}
+.accordon{
+    background: #f1f1f1;
+}
+.accordon-list{
+    position: relative;
+    display: flex;
+    width: 510px;
+    align-items: center;
+    gap: 20px;
+    padding: 15px ;
+    border-bottom: 1px solid gray;
+}
+.accordon-list > :last-child{
+    position: absolute;
+    right: 20px;
+    /* padding-right: 20px; */
+}
+.accordon> :hover{
+    background: #000000;
+    color: white;
+    transition: all 0.4s ease-in-out;
+}
+.footer{
+    padding-top: 100px;
+    font-size: 20px;
+    text-align: center;
+}
+.footer hr{
+    margin-bottom: 20px;
+}
