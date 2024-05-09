@@ -9,14 +9,26 @@
 </head>
 <body>
     <header class="wrapper">
-        <div class="logo"><img src="images/cropped-cropped-cropped-cropped-NITDA-Logo-new-03-300x86 (1).png" alt=""></div>
+        <div class="logo">
+            <img src="images/cropped-cropped-cropped-cropped-NITDA-Logo-new-03-300x86 (1).png" alt="">
+        </div>
         <nav>
             <a href="#">About 3MTT</a>
             <a href="#">How to Apply</a>
             <a href="#">FAQs</a>
-            <button>Login</button> 
+            <button>Login</button>
         </nav>
+        <button class="main-btn">
+            <i class="fas fa-bars"></i>
+        </button>
     </header>
+    <div class="nav">
+        <ul>
+            <li><a href="#">About 3MTT</a></li>
+            <li><a href="#">How to Apply</a></li>
+            <li><a href="#">FAQs</a></li>
+        </ul>
+    </div>
     <div class="banner">
         <div class="B-content">
             <h2>Introducing the 3 Million Technical Talent Program</h2>
@@ -93,7 +105,7 @@
                 <li>
                     <span class="circle"><i class="fas fa-dot-circle"></i></span>
                     <h4>Data Science</h4>
-                </li>
+                </li>  
                 <li>
                     <span class="circle"><i class="fas fa-dot-circle"></i></span>
                     <h4>Animation</h4>
@@ -161,78 +173,196 @@
     <div class="faqs">
         <div class="accordon">
             <div class="accordon-list">
-                <i class="fas fa-plus"></i>
-                <span>Are these the only skills thta will be covered in the programme?</span>
-                <i class="fas fa-angle-right"></i>
+                <div class="flex-container">
+                        <i id="faq-toggle" class="fas fa-plus"></i>
+                    <div class="text-container">
+                        <h4 class="faq-title">Are these the only skills that will be covered in the programme?</h4>
+                        <p class="faq-text">
+                            No, these twelve (12) skills have been identified for the first phase. 
+                            As the program expands, we will include more skills.
+                        </p>
+                    </div>
+                    
+                        <i id="faq-toggle1" class="fas fa-angle-right"></i>
+                
+                </div>              
             </div>
             <div class="accordon-list">
-                <i class="fas fa-plus"></i>
-                <span>How long will the programs in the phase run</span>
-                <i class="fas fa-angle-right"></i>
+                <div class="flex-container">
+                    
+                        <i id="faq-toggle" class="fas fa-plus"></i>
+            
+                    <div class="text-container">
+                        <h4>How long will the training programs in  the phase one run</h4>
+                         <p class="faq-text">
+                        The average length of the courses being offered in this phase will be three (3) months.
+                         </p>
+                    </div>
+                    
+                        <i id="faq-toggle1" class="fas fa-angle-right"></i>
+                    
+                </div>
             </div>
             <div class="accordon-list">
-                <i class="fas fa-plus"></i>
-                <span>Is physical attendance mandatory for the training sessions?</span>
-                <i class="fas fa-angle-right"></i>
+                <div class="flex-container">
+        
+                        <i id="faq-toggle" class="fas fa-plus"></i>
+        
+                    <div class="text-container">
+                        <h4>Is physical attendance mandatory for the training sessions?</h4>
+                        <p class="faq-text">
+                        The training is hybrid, meaning that it combines online and in-person components. 
+                        While the majority of the training can be done remotely, 
+                        there are aspects that will require in-person training.
+                        </p>
+                    </div>
+                
+                        <i id="faq-toggle1" class="fas fa-angle-right"></i>
+                 
+                </div>
             </div>
         </div>
+
         <div class="accordon">
             <div class="accordon-list">
-                <i class="fas fa-plus"></i>
-                <span>Will I be required to write an entry assessment?</span>
-                <i class="fas fa-angle-right"></i>
+                <div class="flex-container">
+                    
+                        <i id="faq-toggle" class="fas fa-plus"></i>
+                
+                    <div class="text-container">
+                        <h4>Will I be required to write an entry assessment?</h4>
+                        <p class="faq-text">Yes, there will be an entry assessment to determine the skill benchmark for each applicant. 
+                        This will also be used in selecting the most applicable course for fellows.
+                        </p>
+                    </div>
+                
+                        <i id="faq-toggle1" class="fas fa-angle-right"></i>
+                 
+                </div>
             </div>
+
             <div class="accordon-list">   
-                <i class="fas fa-plus"></i>
-                <span>Is there a commitment fee required for selection?</span>
-                <i class="fas fa-angle-right"></i>
+                <div class="flex-container">
+                        <i id="faq-toggle" class="fas fa-plus"></i>
+                    <div class="text-container">
+                        <h4>Is there a commitment fee required for selection?</h4>
+                        <p class="faq-text" id="faq-texts">
+                        No, there is no fee at all for this phase of the programme.
+                        </p>
+                    </div>
+                        <i id="faq-toggle1" class="fas fa-angle-right"></i>
+                </div>
             </div>
             <div class="accordon-list">
-                <i class="fas fa-plus"></i>
-                <span>Will there be financial support for transport, meals and other services in addition to the training?< /span>
-                <i class="fas fa-angle-right"></i>
+                <div class="flex-container">
+                
+                        <i id="faq-toggle" class="fas fa-plus"></i>
+                    
+                    <div class="text-container">
+                        <h4>Will there be financial support for transport, meals and other services in addition to the training?</h4>
+                        <p class="faq-text">
+                        The only financial support for this phase of the programme will be the cost of training. 
+                        Participants will be responsible for transportation, meals and other costs.
+                        </p>
+                    </div>
+                
+                        <i id="faq-toggle1" class="fas fa-angle-right"></i>
+                    
+                </div>
             </div>
-        </div>
+        </div> 
     </div>
+
     <h2 class="fa2">FAQs for training providers</h2>
     <div class="faqs">
         <div class="accordon">
             <div class="accordon-list">
-                <i class="fas fa-plus"></i>
-                <span>Can Individual Trainers apply for this programme?</span>
-                <i class="fas fa-angle-right"></i>
+                <div class="flex-container">
+                    <i id="faq-toggle" class="fas fa-plus"></i>
+                    <div class="text-container">
+                        <h4 class="faq-title">Can Individual Trainers apply for this programme?</h4>
+                        <p class="faq-text">
+                            No, training providers have to be duly registered organisations.
+                        </p>
+                    </div>
+                    <i id="faq-toggle1" class="fas fa-angle-right"></i>
+                </div>              
             </div>
+
             <div class="accordon-list">
-                <i class="fas fa-plus"></i>
-                <span>Can organisations without a physical facility apply to become training providers?</span> 
-                <i class="fas fa-angle-right"></i>
+                <div class="flex-container">
+                    <i id="faq-toggle" class="fas fa-plus"></i>
+                    <div class="text-container">
+                        <h4>Can organisations without a physical facility apply to become training providers?</h4>
+                         <p class="faq-text">
+                            Yes, organisations who do not own a physical facility can apply for consideration. However, they will be required to have access to a physical facility where required.
+                         </p>
+                    </div>
+                    <i id="faq-toggle1" class="fas fa-angle-right"></i>
+                </div>
             </div>
+
             <div class="accordon-list">
-                <i class="fas fa-plus"></i>
-                <span>Can a training provider implement in more than one state?</span>
-                <i class="fas fa-angle-right"></i>
+                <div class="flex-container">
+                    <i id="faq-toggle" class="fas fa-plus"></i>
+                    <div class="text-container">
+                        <h4>Can a training provider implement in more than one state?</h4>
+                        <p class="faq-text">
+                            Yes, training providers can implement in more than one location but they must prove capacity to implement effectively across multiple locations.
+                        </p>
+                    </div>
+                    <i id="faq-toggle1" class="fas fa-angle-right"></i>
+                </div>
             </div>
         </div>
+
         <div class="accordon">
             <div class="accordon-list">
-                <i class="fas fa-plus"></i>
-                <span>Will the government solely be responsible for sourcing training fellows?</span>
-                <i class="fas fa-angle-right"></i>
+                <div class="flex-container">
+                    <i id="faq-toggle" class="fas fa-plus"></i>
+                    <div class="text-container">
+                        <h4>Will the government solely be responsible for sourcing training fellows?</h4>
+                        <p class="faq-text">The fellowship programme is open to everyone. We encourage trainings to also share the fellowship within their communities and networks.
+                        </p>
+                    </div>
+                    <i id="faq-toggle1" class="fas fa-angle-right"></i>
+                </div>
             </div>
+
+            <div class="accordon-list">   
+                <div class="flex-container">
+                    <i id="faq-toggle" class="fas fa-plus"></i>
+                    <div class="text-container">
+                        <h4>Is there a fee to be selected as a training provider?</h4>
+                        <p class="faq-text" id="faq-texts">
+                            No, there is no fee required to be selected as a training provider.
+                        </p>
+                    </div>
+                    <i id="faq-toggle1" class="fas fa-angle-right"></i>
+                </div>
+            </div>
+
             <div class="accordon-list">
-                <i class="fas fa-plus"></i>
-                <span>Is there a fee to be selected as a training provider?</span>
-                <i class="fas fa-angle-right"></i>
+                <div class="flex-container">
+                    <i id="faq-toggle" class="fas fa-plus"></i>
+                    <div class="text-container">
+                        <h4>
+                            Is there a deadline for registration?</h4>
+                        <p class="faq-text">
+                            No, training provider applications will be reviewed on a rolling basis. If you do not get into this first phase, you may be selected for future phases.
+                        </p>
+                    </div>
+                
+                        <i id="faq-toggle1" class="fas fa-angle-right"></i>
+                    
+                </div>
             </div>
-            <div class="accordon-list">
-                <i class="fas fa-plus"></i>
-                <span>Is there a deadline for registration?</span>
-                <i class="fas fa-angle-right"></i>
-            </div>
-        </div>
+        </div> 
     </div>
-    <footer class="footer">
-        <small><hr>Copyright © 2023 3 Million Technical Talent | Powered by FMCIDE</small>
-    </footer>
+<footer class="footer">
+      <small><hr>Copyright © 2023 3 Million Technical Talent | Powered by FMCIDE</small>
+</footer>
+
+<script src="index.js"></script>
 </body>
 </html>
